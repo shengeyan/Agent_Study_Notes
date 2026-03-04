@@ -37,7 +37,6 @@ class ReActAgent extends Agent {
         this.maxSteps = maxSteps;
         this.currentHistory = [];
         this.promptTemplate = customPrompt || MY_REACT_PROMPT;
-        console.log(`✅ ${name} 初始化完成，最大步数: ${maxSteps}`);
     }
 
     /** 运行 ReAct Agent */
